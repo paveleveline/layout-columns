@@ -21,13 +21,14 @@ main {
 }
 
 .left-corner-logo {
-position: absolute; 
-width: 150px;
-height: 400px; 
-display: flex;
-top: -1em;
-padding-left: 4.2em;
-flex-direction: column;
+    /* o implementare mai solida ar fi fost sa dai un relative la main sau la .container si sa nu te raportezi la viewport */
+    position: absolute; 
+    width: 150px;
+    height: 400px; 
+    display: flex;
+    top: -1em;
+    padding-left: 4.2em;
+    flex-direction: column;
 }
 
 .left-corner-logo img { 
@@ -185,6 +186,7 @@ footer img {
     height: 90%;    
 }
 
+/* frumos!! apreciez folosirea tuturor selectorilor */
 img[alt="second-logo"]{
     height: 100%;
     width: 100%;
