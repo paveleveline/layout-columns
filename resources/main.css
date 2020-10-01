@@ -21,7 +21,6 @@ main {
 }
 
 .left-corner-logo {
-    /* o implementare mai solida ar fi fost sa dai un relative la main sau la .container si sa nu te raportezi la viewport */
     position: absolute; 
     width: 150px;
     height: 400px; 
