@@ -1,134 +1,162 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Front end development course">
+        <meta name="keywords" content="HTML,CSS,Learning">
+        <meta name="author" content="Eveline Pavel">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email-template</title>
+        <link href="https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <table style="
+            width: 400px;
+            height: 550px;
+            background-image: url(assets/bg.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-spacing: 0;
+            box-sizing: border-box;
+            margin: 0;
+            text-transform: uppercase;
+            padding: 20px;
+            table-layout: fixed;
+            ">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Front end development course">
-    <meta name="keywords" content="HTML,CSS,Learning">
-    <meta name="author" content="Eveline Pavel">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout-columns</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,300;0,500;1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="resources/main.css">
-</head>
-
-<body>  
-    <div class="container">
-
-        <main>
-
-            <div class="top-corners">
-                <div class="left-corner-logo">
-                    <img src="assets/logo-lima-design-network.png" alt="">
-                    <div class="text-left-corner">
-                        <div>Lima</div>
-                        <div>Design</div>
-                        <div>Network</div> 
-                    </div>  
-                </div>
-
-                <div class="right-corner-text">
-                    <div>&#42 Contest</div>
-                    <div>Launch</div>
-                    <div>Lima 2020</div>   
-                </div> 
-            </div>
-
-            <section class="column-section">
-                <div class="image-wrapper-one"></div>
-                <h1>River<br>Park</h1>
-                <h3>Contest launch</h3>
-                <div class="orange-text">Lima</div>
-                <div class="orange-text">2020</div>
-            </section>    
-
-            <section class="column-section">
-                <div class="image-wrapper-two"></div>
-                <h2>+ about</h2>
-                <h3>Students and young<br>profesionals</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Vestibulum imperdiet venenatis arcu, ut efficitur eros malesuada sit amet. In vel sem non erat finibus ullamcorper.  </p>
-                <p>Curabitur gravida metus orci, eget fermentum dolor eleifend in. Aliquam nec ex quis dui scelerisque semper et tempor lectus. Proin in nunc a lectus tempor pulvinar a non ex. Proin dignissim orci dui, quis fermentum elit rhoncus vitae. Sed sit amet hendrerit diam. Etiam ullamcorper mollis justo, vel cursus tellus dapibus ut. </p>
-            </section>   
-
-            <section class="column-section">
-                <div class="image-wrapper-three"></div>
-                <h2>+ prizes</h2>
-                <div class="win-prize">
-                    <div>1st Place</div>
-                    <div>$ 25.000</div>
-                </div>
-                <div class="win-prize">
-                    <div>2nd Place</div>
-                    <div>$ 15.000</div>
-                </div>
-                <div class="win-prize">
-                    <div>3rd Place</div>
-                    <div>$ 5.000</div>
-                </div>
-                <h4>+ Additional prizes</h4>
-
-                <h2>+ judges</h2>
-                <div class="judge">
-                <span>John Doe -</span>
-                <span>Llama</span>
-                </div>
-                <div class="judge">
-                <span>Jorge Sanchez -</span>
-                <span>Nomena</span>
-                </div>
-                <div class="judge">
-                <span>Mariana Alegre -</span>
-                <span>Lima Vamos</span>
-                </div>
-                <div class="judge">
-                <span>Pablo Vega -</span>
-                <span>Ciac</span>
-                </div>
+            <thead>
+            <tr>
+                <td colspan="3" style="
+                text-transform: uppercase;
+                font-family: Verdana, Geneva, sans-serif;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 22px;
+                letter-spacing: 1px;
+                height: 10px;
+                padding-bottom: 5px;
+                line-height: 30px;
+                ">Click to it!
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="
+                text-transform: uppercase;
+                font-family: 'Open Sans Condensed', sans-serif;
+                text-align: center;
+                font-size: 19px;
+                font-weight: 100;
+                letter-spacing: 1px;
+                height: 10px; 
+                padding-bottom: 20px;
+                ">Sale ends Tuesday.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="
+                height: 20px;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 33px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                padding-top: 10px;
+                ">Extra</td>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td 
+                    style="
+                font-size: 210px;
+                font-family: 'Roboto', sans-serif;
+                text-align: center;
+                line-height: 100px;
+                font-weight: bolder;
+                padding-left: 56px;
+                height: 210px;
+                ">30</td>
                 
-                <h2>+ schedule</h2>
-                <div class="schedule">
-                    <span>Early Bird -</span>
-                    <span>$100 (01/04 - 15/05)</span>
-                </div>
-                <div class="schedule regular">
-                    <span>Regular -</span>
-                    <span>$150 (16/05 - 30/06)</span>
-                </div>
+                <td style="
+                text-transform: uppercase;
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 30px;  
+                font-weight: 700;
+                text-align: center;
+                width: 70px;
+                padding-left: 90px;
+                box-sizing: border-box;
+                height: 130px;
+                ">%</td>
 
-                <div class="schedule">
-                    <span>Submission -</span>
-                    <span>5th of November</span>
-                </div>
-
-                <div class="schedule results">
-                    <span>Results -</span>
-                    <span>25th of November</span>
-                </div>
-
-                <div class="schedule">
-                    <span>Awards -</span>
-                    <span>30th of November</span>
-                </div>
-
-                <div class="contact">
-                <h3 class="orange-text">+ info and inscriptiones</h3>
-                <div>contact@contact.com</div>
-                <a href="http://www.contestdesign.network">www.contestdesign.network</a>
-                </div>   
-            </section>   
-        </main>
-
-        <footer>
-            <div> <img src="assets/logo-arch-daily.png" alt="first-logo"></div>
-            <div> <img src="assets/logo-arkinka.png" alt="second-logo"></div>
-            <div> <img src="assets/logo-visualiza.png" alt="third-logo"></div>
-            <div> <img src="assets/logo-crehana.png" alt="forth-logo"></div>
-            <div> <img src="assets/logo-inmersur.png" alt="fifth-logo"></div>
-            <div> <img src="assets/logo-vision.png" alt="sixth-logo"></div>
-            <div> <img src="assets/logo-vip-productions.png" alt="seventh-logo"></div>
-        </footer>
-    </div>
-
-</body>
-
+                <td style="
+                text-transform: uppercase;
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 35px;  
+                font-weight: 700;
+                text-align: center;
+                width: 100px;
+               letter-spacing: 2px;
+                height: 130px; 
+                padding-left: 20px;
+                ">ff</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style=" 
+                text-transform: uppercase;
+                text-align: center;
+                font-family: Verdana, Geneva, sans-serif;
+                font-size: 33px;
+                font-weight: 700;
+                letter-spacing: 1px;
+                 ">Everything &#x2605 </td>
+            </tr>
+            <tr>
+                <td colspan="3" style=" 
+               text-transform: uppercase;
+                font-family: 'Open Sans Condensed', sans-serif;
+                text-align: center;
+                font-size: 19px;
+                font-weight: 100;
+                letter-spacing: 1px;
+                padding: 10px;
+                    ">With code sale30  </td>
+            </tr>
+            <tr>
+                <td colspan="3" style=" 
+               text-transform: uppercase;
+                font-family: 'Open Sans Condensed', sans-serif;
+                text-align: center;
+                font-size: 19px;
+                font-weight: 100;
+                letter-spacing: 1px;
+                padding: 20px;
+                    ">Online only.  </td>   
+            </tr>
+            <tr>
+                <td colspan="3" style="
+                    text-align: center;">
+                    <button type="button" style="
+                    background-color: rgba(223, 196, 39, 0.534);
+                    color: black; 
+                    padding: 8px; 
+                    text-align: center; 
+                    text-transform: uppercase;
+                    font-family: Verdana, Geneva, sans-serif;
+                    border: 1px solid black;
+                    font-weight: bolder;
+                    font-size: 18px;
+                    letter-spacing: 1px; 
+                    cursor: pointer;
+                    width: 160px;
+                    height: 60px;">Shop now</button>
+                </td>
+            </tr>
+        </tfoot>
+       </table>
+    </body>
 </html>
